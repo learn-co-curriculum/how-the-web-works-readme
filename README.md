@@ -66,7 +66,7 @@ An analogy that works well is thinking of an apartment building. The domain is t
 
 So the client makes a request to YouTube's server. In this case, a request to `/adelevevo`. And the server responds with all the code associated with that resource `<!doctype html> .....</html>`, including all images, CSS files, JavaScript files, videos, music, etc. 
 
-When the client makes a request, it includes other items besides just the URL in the "headers". The request header would look something like this. 
+When the client makes a request, it includes other items besides just the URL in the "headers". The request header would look something like this.  <-- I think there is a missing image -->
 
 
 The request header contains all the information the server needs in order to fulfill the request. This ends up being a lot of meta-data that as a developer we don't need to worry too much about. The big elements are things like the web browser that is making the request, the time of the request and what sort of data type the request would like in response.
@@ -127,3 +127,5 @@ The flow of request and response changes slightly based on a static or a dynamic
 When the client wants to load a static site, the client makes a request, the server finds the file on a disk, and sends it back. Done and Done.
 
 It gets a little bit more complex with a webapp. The client makes a request, the server runs application code (think of this as your Ruby code), and returns a dynamically generated response. 
+
+<a href='https://learn.co/lessons/how-the-web-works-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
